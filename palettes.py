@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from __future__ import unicode_literals
 import time
 from random import seed, shuffle
 from collections import namedtuple
@@ -186,7 +187,7 @@ class Palettes:
             ),
             # Yves Klein
             Painter_goblin_palette(
-                unicode("#YvesKlein #Anthropométrie", "utf-8"),
+                u"#YvesKlein #Anthropométrie",
                 [
                     (0x11, 0x12, 0x89),
                     (0x06, 0x10, 0xC5),
@@ -208,7 +209,7 @@ class Palettes:
             ),
             # Neukölln / Reuterstrasse
             Painter_goblin_palette(
-                unicode("#Neukölln", "utf-8"),
+                u"#Neukölln",
                 [
                     (0x33, 0x35, 0x34),
                     (0xED, 0x34, 0x3C),
