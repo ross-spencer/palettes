@@ -1,6 +1,8 @@
 # palettes
 
-Color palettes designed for the Painter Goblin and other projects... 
+Color palettes designed for the
+[Painter Goblin](https://twitter.com/paintergoblin)
+and other projects...
 
 ### License
 
