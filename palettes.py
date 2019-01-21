@@ -105,11 +105,11 @@ class Palettes:
             Painter_goblin_palette(
                 u"#🌈",
                 [
-                    (0x03, 0x03, 0xC1),
-                    (0x00, 0xFF, 0x00),
-                    (0xFF, 0xFF, 0x00),
-                    (0xFF, 0x7F, 0x00),
-                    (0xFF, 0x00, 0x00),
+                    (0x0f, 0x1c, 0x5f),
+                    (0xc6, 0x09, 0x25),
+                    (0xd0, 0x52, 0x00),
+                    (0x4a, 0x9e, 0x41),
+                    (0xe0, 0xdc, 0x11),
                 ],
             ),
             # browns and greys
@@ -618,6 +618,17 @@ class Palettes:
                     (0x73, 0x82, 0x87),
                     (0xFF, 0xA4, 0x9D),
                     (0xFF, 0xC9, 0xA3),
+                ],
+            ),
+            # Space Shuttle's Last Flight
+            Painter_goblin_palette(
+                "#SpaceShuttle #STS135 #Atlantis",
+                [
+                    (0x0f, 0x0f, 0x06),
+                    (0x5c, 0x54, 0x3d),
+                    (0xad, 0xc2, 0xaf),
+                    (0xcc, 0xc7, 0xa0),
+                    (0xfc, 0xe7, 0xa4),
                 ],
             ),
         ]
