@@ -14,7 +14,254 @@ class Palettes:
             "Painter_goblin_palette", "label colors"
         )
         p = [
-
+            # france1/seatoun
+            Painter_goblin_palette(
+                "#Seatoun",
+                [
+                    (0x00, 0x00, 0x00),
+                    (0xFF, 0x00, 0x00),
+                    (0xBD, 0xBD, 0xBD),
+                    (0x69, 0x78, 0xAD),
+                ],
+            ),
+            # four variants, yellows, reds, blues, greens
+            Painter_goblin_palette(
+                "#Yellows",
+                [
+                    (0xEF, 0xEF, 0x3F),
+                    (0xC8, 0xC3, 0xC3),
+                    (0x3D, 0x3D, 0x3D),
+                    (0x53, 0x53, 0x53),
+                    (0x00, 0x00, 0x00),
+                ],
+            ),
+            # Reds
+            Painter_goblin_palette(
+                "#Reds",
+                [
+                    (0xEF, 0x00, 0x00),
+                    (0xC8, 0xC3, 0xC3),
+                    (0x3D, 0x3D, 0x3D),
+                    (0x53, 0x53, 0x53),
+                    (0x00, 0x00, 0x00),
+                ],
+            ),
+            # Greens
+            Painter_goblin_palette(
+                "#Greens",
+                [
+                    (0x00, 0xEF, 0x00),
+                    (0xC8, 0xC3, 0xC3),
+                    (0x3D, 0x3D, 0x3D),
+                    (0x53, 0x53, 0x53),
+                    (0x00, 0x00, 0x00),
+                ],
+            ),
+            # Blues
+            Painter_goblin_palette(
+                "#Blues",
+                [
+                    (0x00, 0x00, 0xEF),
+                    (0xC8, 0xC3, 0xC3),
+                    (0x1D, 0x1D, 0x1D),
+                    (0x53, 0x53, 0x53),
+                    (0x00, 0x00, 0xCC),
+                ],
+            ),
+            # madmax
+            Painter_goblin_palette(
+                "#MadMaxFuryRoad",
+                [
+                    (0xFB, 0xFD, 0xFA),
+                    (0xE3, 0x77, 0x12),
+                    (0x1A, 0x37, 0x39),
+                    (0x00, 0x64, 0x6C),
+                    (0xBB, 0xBB, 0xBB),
+                ],
+            ),
+            # oranges/browns
+            Painter_goblin_palette(
+                "#OrangeBrowns",
+                [
+                    (0xC2, 0x8E, 0x27),
+                    (0x03, 0x55, 0x52),
+                    (0x4D, 0x9C, 0x6D),
+                    (0x85, 0x2C, 0x1A),
+                    (0x00, 0x00, 0x00),
+                ],
+            ),
+            # magenta, electric green, and others...
+            Painter_goblin_palette(
+                "#MagentaConverse",
+                [
+                    (0x00, 0x00, 0x00),
+                    (0xFF, 0x53, 0x53),
+                    (0xD1, 0xB6, 0xF3),
+                    (0xFF, 0x00, 0x69),
+                    (0xAA, 0xFF, 0x57),
+                ],
+            ),
+            # rainbow palette
+            Painter_goblin_palette(
+                u"#🌈",
+                [
+                    (0x03, 0x03, 0xC1),
+                    (0x00, 0xFF, 0x00),
+                    (0xFF, 0xFF, 0x00),
+                    (0xFF, 0x7F, 0x00),
+                    (0xFF, 0x00, 0x00),
+                ],
+            ),
+            # browns and greys
+            Painter_goblin_palette(
+                "#BrownGrey",
+                [
+                    (0xC5, 0x7E, 0x42),
+                    (0x91, 0x87, 0x8D),
+                    (0x7D, 0x70, 0x7C),
+                    (0x2A, 0x12, 0x1C),
+                    (0x53, 0x6D, 0x81),
+                ],
+            ),
+            # purples and soft greys
+            Painter_goblin_palette(
+                "#PurpleGrey",
+                [
+                    (0x81, 0x40, 0x59),
+                    (0x55, 0x57, 0x53),
+                    (0xD0, 0xCC, 0xCC),
+                    (0x2D, 0x31, 0x3D),
+                    (0xFE, 0xC4, 0xD0),
+                ],
+            ),
+            # sonic
+            Painter_goblin_palette(
+                "#SonicTheHedgehog",
+                [
+                    (0x34, 0x53, 0xCA),
+                    (0xFD, 0x92, 0x19),
+                    (0x77, 0x98, 0xEE),
+                    (0xDF, 0x98, 0x21),
+                    (0x68, 0x32, 0x09),
+                ],
+            ),
+            # mario
+            Painter_goblin_palette(
+                "#SuperMario",
+                [
+                    (0xEC, 0x4B, 0x09),
+                    (0xFF, 0x0A, 0x1A),
+                    (0x5D, 0x94, 0xFB),
+                    (0x12, 0x7C, 0x22),
+                    (0xDB, 0xFC, 0xFF),
+                ],
+            ),
+            # lightblue
+            Painter_goblin_palette(
+                "#LightBlue",
+                [
+                    (0x0C, 0x2C, 0x52),
+                    (0x5F, 0x6B, 0x61),
+                    (0x5E, 0x9D, 0xC8),
+                    (0xDC, 0xF0, 0xF7),
+                    (0x00, 0x00, 0x00),
+                ],
+            ),
+            # France
+            Painter_goblin_palette(
+                u"#LeTriTricolore 🇫🇷",
+                [(0xFF, 0x00, 0x00), (0xFF, 0xFF, 0xFF), (0x00, 0x00, 0xFF)],
+            ),
+            # stark
+            Painter_goblin_palette(
+                "#stark",
+                [(0xC0, 0x00, 0x00), (0xFF, 0xFF, 0xFF), (0x00, 0x00, 0x00)],
+            ),
+            # teletext1 (blue, magenta)
+            Painter_goblin_palette(
+                "#TeletextBlueMagenta",
+                [
+                    (0x00, 0xFF, 0xFF),
+                    (0x00, 0x00, 0x00),
+                    (0xFF, 0x00, 0x00),
+                    (0xFF, 0x00, 0xFF),
+                ],
+            ),
+            # teletext2 (yellow, green, blue)
+            Painter_goblin_palette(
+                "#TeletextYellowGreenBlue",
+                [
+                    (0xFE, 0xFE, 0x00),
+                    (0x00, 0xFE, 0xFE),
+                    (0x00, 0xFE, 0x00),
+                    (0xFF, 0xFF, 0xFF),
+                ],
+            ),
+            # teletext3 (red, yellow blue)
+            Painter_goblin_palette(
+                "#TeletextRedYellowBlue",
+                [
+                    (0xFE, 0xFE, 0x00),
+                    (0x00, 0xFE, 0xFE),
+                    (0xFF, 0x00, 0x00),
+                    (0x00, 0x00, 0x00),
+                ],
+            ),
+            # mario sprite
+            Painter_goblin_palette(
+                "#MarioSprite",
+                [
+                    (0x3F, 0x47, 0xCC),
+                    (0xF9, 0x38, 0x01),
+                    (0xFE, 0xA3, 0x46),
+                    (0xFF, 0xFF, 0xFF),
+                    (0x00, 0x00, 0x00),
+                ],
+            ),
+            # redwhiteblack
+            Painter_goblin_palette(
+                "#RussianRevolution",
+                [
+                    (0xDD, 0x00, 0x00),
+                    (0xFF, 0xFF, 0xFF),
+                    (0x00, 0x00, 0x00),
+                    (0xFF, 0xFF, 0xFF),
+                    (0xFF, 0xFF, 0xFF),
+                ],
+            ),
+            # bluewhiteblack
+            Painter_goblin_palette(
+                "#BlueWhiteBlack",
+                [
+                    (0x0C, 0x2C, 0x52),
+                    (0xFF, 0xFF, 0xFF),
+                    (0x00, 0x00, 0x00),
+                    (0xFF, 0xFF, 0xFF),
+                    (0xFF, 0xFF, 0xFF),
+                ],
+            ),
+            # cyan, black, purple, greys...
+            Painter_goblin_palette(
+                "#CyanBlackPurpleGrey",
+                [
+                    (0x00, 0x00, 0x00),
+                    (0x9C, 0x29, 0xC6),
+                    (0xCB, 0xCB, 0xCB),
+                    (0x00, 0xD7, 0xCC),
+                    (0x61, 0x5E, 0x6A),
+                ],
+            ),
+            # print-test, The Crack, William Kokoni
+            Painter_goblin_palette(
+                "#WilliamKokoni",
+                [
+                    (0x00, 0x9D, 0xC4),
+                    (0xA0, 0xC3, 0xBD),
+                    (0xFA, 0x18, 0x3B),
+                    (0x3A, 0x45, 0x42),
+                    (0xD6, 0x7B, 0x7E),
+                ],
+            ),
             # moma, Emigre 29, The Designers Republic, Emigre Inc., Rudy
             # VanderLans, Zuzana Licko, 1994
             Painter_goblin_palette(
@@ -27,7 +274,28 @@ class Palettes:
                     (0xF6, 0xED, 0xDB),
                 ],
             ),
-
+            # toronto queen
+            Painter_goblin_palette(
+                "#TorontoQueen",
+                [
+                    (0xFC, 0x2F, 0xAC),
+                    (0x00, 0x48, 0xFF),
+                    (0x07, 0x1E, 0x45),
+                    (0xF0, 0xB3, 0x00),
+                    (0xC1, 0xE3, 0xFF),
+                ],
+            ),
+            # warhol cow...
+            Painter_goblin_palette(
+                "#WarholCow",
+                [
+                    (0x27, 0x0B, 0x17),
+                    (0x7F, 0x0D, 0x34),
+                    (0xC8, 0x0F, 0x4E),
+                    (0xFE, 0x1D, 0x69),
+                    (0xFF, 0xE1, 0x3B),
+                ],
+            ),
             # palette from wiki image http://www.wikidata.org/entity/Q28771811
             Painter_goblin_palette(
                 "#Phoenix",
@@ -37,6 +305,51 @@ class Palettes:
                     (0xB5, 0x42, 0x19),
                     (0x62, 0x3A, 0x29),
                     (0x2D, 0x28, 0x30),
+                ],
+            ),
+            # alien
+            Painter_goblin_palette(
+                "#Alien1979",
+                [
+                    (0x00, 0x02, 0x00),
+                    (0x30, 0x5E, 0x1A),
+                    (0x77, 0xAC, 0x1A),
+                    (0xCE, 0xC3, 0x66),
+                    (0xFF, 0xED, 0x21),
+                ],
+            ),
+            # bowie - ziggy stardust
+            Painter_goblin_palette(
+                "#ZiggyStardust",
+                [
+                    (0xDF, 0x1C, 0x06),
+                    (0x4B, 0x4D, 0x4B),
+                    (0x59, 0x55, 0xCC),
+                    (0xFF, 0x95, 0x71),
+                    (0xFF, 0xEB, 0xDF),
+                ],
+            ),
+            # white, pink
+            Painter_goblin_palette(
+                "#WhitePink",
+                [
+                    (0x22, 0x22, 0x22),
+                    (0x99, 0x99, 0x99),
+                    (0xF8, 0xF8, 0xFF),
+                    (0xFE, 0xFE, 0xFA),
+                    (0xFF, 0x1F, 0xFA),
+                ],
+            ),
+            # Anna Atkins's cyanotypes:
+            # https://digitalcollections.nypl.org/collections/ocean-flowers-anna-atkinss-cyanotypes-of-british-algae#/?tab=navigation
+            Painter_goblin_palette(
+                "#AnnaAtkins #CyanoTypes",
+                [
+                    (0x22, 0x67, 0x88),
+                    (0x30, 0x6E, 0x8E),
+                    (0x59, 0x8C, 0xA6),
+                    (0x88, 0xB0, 0xC0),
+                    (0xC6, 0xD6, 0xD7),
                 ],
             ),
             # velvet underground
