@@ -631,6 +631,17 @@ class Palettes:
                     (0xfc, 0xe7, 0xa4),
                 ],
             ),
+            # Original Gameboy Palette
+            Painter_goblin_palette(
+                "#🎮 #Nintendo #Gameboy",
+                [
+                    (0xCA,0xDC,0x9f),
+                    (0x0F,0x28,0x0F),
+                    (0x30,0x62,0x30),
+                    (0x8b,0xac,0x0f),
+                    (0x9b,0xbc,0x0f),
+                ],
+            ),
         ]
 
         # seed the random number generator
