@@ -10,9 +10,7 @@ from collections import namedtuple
 class Palettes:
     def get_palette(self):
 
-        Painter_goblin_palette = namedtuple(
-            "Painter_goblin_palette", "label colors"
-        )
+        Painter_goblin_palette = namedtuple("Painter_goblin_palette", "label colors")
         p = [
             # france1/seatoun
             Painter_goblin_palette(
@@ -103,13 +101,13 @@ class Palettes:
             ),
             # rainbow palette
             Painter_goblin_palette(
-                u"#🌈",
+                "#🌈",
                 [
-                    (0x0f, 0x1c, 0x5f),
-                    (0xc6, 0x09, 0x25),
-                    (0xd0, 0x52, 0x00),
-                    (0x4a, 0x9e, 0x41),
-                    (0xe0, 0xdc, 0x11),
+                    (0x0F, 0x1C, 0x5F),
+                    (0xC6, 0x09, 0x25),
+                    (0xD0, 0x52, 0x00),
+                    (0x4A, 0x9E, 0x41),
+                    (0xE0, 0xDC, 0x11),
                 ],
             ),
             # browns and greys
@@ -169,7 +167,7 @@ class Palettes:
             ),
             # France
             Painter_goblin_palette(
-                u"#LeTriTricolore 🇫🇷",
+                "#LeTriTricolore 🇫🇷",
                 [(0xFF, 0x00, 0x00), (0xFF, 0xFF, 0xFF), (0x00, 0x00, 0xFF)],
             ),
             # stark
@@ -500,7 +498,7 @@ class Palettes:
             ),
             # Yves Klein
             Painter_goblin_palette(
-                u"#YvesKlein #Anthropométrie",
+                "#YvesKlein #Anthropométrie",
                 [
                     (0x11, 0x12, 0x89),
                     (0x06, 0x10, 0xC5),
@@ -522,7 +520,7 @@ class Palettes:
             ),
             # Neukölln / Reuterstrasse
             Painter_goblin_palette(
-                u"#Neukölln",
+                "#Neukölln",
                 [
                     (0x33, 0x35, 0x34),
                     (0xED, 0x34, 0x3C),
@@ -594,8 +592,8 @@ class Palettes:
                     (0x00, 0x01, 0x02),
                     (0x26, 0x00, 0x84),
                     (0x56, 0x45, 0x6B),
-                    (0xff, 0x60, 0xcc),
-                    (0xff, 0xdf, 0xd2),
+                    (0xFF, 0x60, 0xCC),
+                    (0xFF, 0xDF, 0xD2),
                 ],
             ),
             # Frozen (Movie)
@@ -605,7 +603,7 @@ class Palettes:
                     (0x00, 0x10, 0x00),
                     (0x6D, 0x34, 0xBA),
                     (0x58, 0x68, 0xFF),
-                    (0xd8, 0x61, 0xb4),
+                    (0xD8, 0x61, 0xB4),
                     (0xE5, 0xC2, 0xE5),
                 ],
             ),
@@ -624,22 +622,42 @@ class Palettes:
             Painter_goblin_palette(
                 "#SpaceShuttle #STS135 #Atlantis",
                 [
-                    (0x0f, 0x0f, 0x06),
-                    (0x5c, 0x54, 0x3d),
-                    (0xad, 0xc2, 0xaf),
-                    (0xcc, 0xc7, 0xa0),
-                    (0xfc, 0xe7, 0xa4),
+                    (0x0F, 0x0F, 0x06),
+                    (0x5C, 0x54, 0x3D),
+                    (0xAD, 0xC2, 0xAF),
+                    (0xCC, 0xC7, 0xA0),
+                    (0xFC, 0xE7, 0xA4),
                 ],
             ),
             # Original Gameboy Palette
             Painter_goblin_palette(
                 "#🎮 #Nintendo #Gameboy",
                 [
-                    (0x1f,0x1f,0x1f),
-                    (0x1f,0x1f,0x1f),
-                    (0xc4,0xcf,0xa1),
-                    (0x8b,0x95,0x6d),
-                    (0x4d,0x53,0x3c),
+                    (0x1F, 0x1F, 0x1F),
+                    (0x1F, 0x1F, 0x1F),
+                    (0xC4, 0xCF, 0xA1),
+                    (0x8B, 0x95, 0x6D),
+                    (0x4D, 0x53, 0x3C),
+                ],
+            ),
+            Painter_goblin_palette(
+                "#CasparDavidFriedrich #WinterlandschaftmitKirche",
+                [
+                    (0x28, 0x25, 0x1D),
+                    (0x52, 0x4E, 0x4D),
+                    (0xBB, 0x81, 0x6E),
+                    (0x80, 0x80, 0x94),
+                    (0xC2, 0xC7, 0xC9),
+                ],
+            ),
+            Painter_goblin_palette(
+                "#Pohutukawa",
+                [
+                    (0x95, 0x25, 0x23),
+                    (0x40, 0x41, 0x1E),
+                    (0x46, 0x93, 0x3F),
+                    (0x95, 0x00, 0x07),
+                    (0xFD, 0xFD, 0xF8),
                 ],
             ),
         ]
