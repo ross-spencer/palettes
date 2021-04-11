@@ -660,6 +660,36 @@ class Palettes:
                     (0xFD, 0xFD, 0xF8),
                 ],
             ),
+            Painter_goblin_palette(
+                "#BotanicOne #Psychadelic",
+                [
+                    (0xD3, 0xBA, 0x00),
+                    (0xC1, 0x00, 0xFF),
+                    (0x00, 0xBF, 0x00),
+                    (0x50, 0x00, 0xBB),
+                    (0x20, 0x2E, 0x48),
+                ],
+            ),
+            Painter_goblin_palette(
+                "#BotanicSky",
+                [
+                    (0x1A, 0x26, 0x3F),
+                    (0x28, 0x33, 0x4E),
+                    (0x41, 0x47, 0x5A),
+                    (0x70, 0x70, 0x6F),
+                    (0x6B, 0x6B, 0x72),
+                ],
+            ),
+            Painter_goblin_palette(
+                "#BotanicClouds #LowContrast",
+                [
+                    (0x49, 0x4A, 0x57),
+                    (0x5D, 0x5C, 0x64),
+                    (0x73, 0x72, 0x75),
+                    (0x7F, 0x7E, 0x80),
+                    (0x94, 0x90, 0x8F),
+                ],
+            ),
         ]
 
         # seed the random number generator
